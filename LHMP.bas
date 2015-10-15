@@ -112,7 +112,7 @@ Const orange = RGB(255,165,0)
 
 Dim Shared CurSong As song
 Dim Shared As event e
-Dim Shared As Integer curpos = 1, viz_mode = 6, frames, random_on = 0, fps = 30
+Dim Shared As Integer curpos = 1, viz_mode = 6, frames, random_on = 0, fps = 60
 Dim Shared As Integer screenx, screeny,fullx, fully, fonts,  menusel = 1, mousex, mousey, maxsel, helpon=0, minimode = 0
 Dim Shared As Integer songlength, songlengthmin, songlengthsec, pressed, winx, winy, movin, mpvol = 255, volbarfade, scrnotice
 dim Shared As integer mousewheel, repeat = 0, m3u = FALSE, loaded_bg = 0, loaded_image = 0
@@ -430,7 +430,7 @@ Do
 							If viz_mode = 0 Or viz_mode = 7 Or viz_mode = 8 Then
 								fps = 5 'Static image so low fps
 							Else
-								fps = 120 'moving image so more fps
+								fps = 60 'moving image so more fps
 							EndIf
 							frames = 0 'fps reset
 							updtime = Timer
