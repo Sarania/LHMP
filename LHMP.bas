@@ -1923,9 +1923,6 @@ Sub debug_info
 End Sub
 
 Sub fillpix
-	
-    #Undef black
-    #Define black  &hFF000000
     Dim As Integer w, h, bypp, pitch
     Dim buffer As UInteger Ptr
     Dim szbuff As UInteger
@@ -1968,7 +1965,4 @@ Sub fillpix
        End Asm
        
        ScreenUnLock()
-       #Undef black
-       #Define black RGB(0,0,0)
-
     End Sub
