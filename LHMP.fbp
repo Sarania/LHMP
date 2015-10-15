@@ -1,0 +1,29 @@
+[Project]
+Version=3
+Description=LHMP
+Api=fb (FreeBASIC)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Current=1
+1=Windows GUI,fbc -s gui
+Recompile=2
+Module=Module Build,fbc -c
+Output=
+Run=
+Delete=*.obj; Res\*.obj
+[TabOrder]
+TabOrder=1
+[File]
+1=LHMP.bas
+2=Res\LHMP.rc
+[FileInfo]
+2=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1=0,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[BreakPoint]
+1=

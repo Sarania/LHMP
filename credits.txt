@@ -1,0 +1,10 @@
+Credits:
+FMOD Sound System copyright Firelight technologies Pty Ltd 1994-2010
+Levenshtein Distance code belongs to sir_mud of the FreeBASIC forum
+Multiput function belongs to D.J. Peters of the FreeBASIC forum
+Freetype class for FreeBASIC belongs to Thorham of the FreeBASIC forum
+Freeimage to fbimage code belongs to Cha0s of the FreeBASIC forum
+zlib Copyright (C) 1995-2005 Jean-loup Gailly and Mark Adler
+Portions of this software are copyright © 2007 The FreeType Project
+The basis for the VFW was provided by Vincent DeCampo (Vdecampo of the FreeBASIC forums)
+RotateScaleHQ belongs to Mysoft of the FreeBASIC forum

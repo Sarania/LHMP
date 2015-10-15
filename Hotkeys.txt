@@ -1,0 +1,22 @@
+<- Seek -> (Also click on song progress bar)
+[ Change track ] (Also click on the arrows by the progress bar)
+/\ Adjust volume \/ (Also mouse wheel)
+Space - Pause
+R - Toggle Repeat on/off
+X - Toggle Random on/off
+S - Subtitle/Lyric display mode. 1 = Normal, 2 = In a shaded box, 3 = Off
+Home/End - Adjust subtitle delay
+M - Toggle mini player on/off
+O - Bring up options menu
+F - Toggle fullscreen on/off
+V - Change visualizer mode
+D - Change directory/playlist (and within that interface, C to change drive)
+W - Change video/graphic scaler/renderer
+H - Bring up help overlay
+Video mode only:
+Page up/Page down - Zoom in/ Zoom out
+...I
+J K L - Pan video
+Plus/Minus - Adjust audio delay
+Insert - Force video/audio resync. (Shouldn't be needed anymore)
+~ - show/hide video debug information 
